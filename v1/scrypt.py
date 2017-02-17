@@ -14,8 +14,9 @@ def url_code():
 
 if __name__ == '__main__':
     with open('Views.txt','w') as file:
-        templates_path = os.getcwd() + '/' + 'templates'
-        for template in os.listdir(templates_path):
-            file.write(get_class_string(template)+"\n")
+      #  templates_path = os.getcwd() + '/' + 'templates'
+       # for template in os.listdir(templates_path):
+          #  file.write(get_class_string(template)+"\n")
 
-    url_code()
+    #url_code()
+
